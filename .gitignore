@@ -1,0 +1,6 @@
+deps
+*.E
+*.S
+ebin/
+*.beam
+vmling

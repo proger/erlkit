@@ -1,5 +1,5 @@
 -module(netstat).
--author('proger@hackndev.com').
+%-author('proger@hackndev.com').
 -compile([export_all]).
 
 -record(sock, {port, local, peer, stat, proc}).
