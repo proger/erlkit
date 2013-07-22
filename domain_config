@@ -1,5 +1,5 @@
 kernel = "vmling"
 name = "helloworld"
 memory = 256
-extra = "-ipaddr 172.16.42.109 -netmask 255.255.255.0 -gateway 172.16.42.108 -root /erlang -pz /erlkit/ebin"
+extra = "-ipaddr 172.16.42.109 -netmask 255.255.255.0 -gateway 172.16.42.1 -root /erlang -pz /erlkit/ebin"
 vif =  [ 'bridge=br0', ]
