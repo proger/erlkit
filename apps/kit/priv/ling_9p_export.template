@@ -1,0 +1,2 @@
+{variables, [{modname, "myexport"}]}.
+{template, "ling_9p_export.erl", "src/{{modname}}.erl"}.

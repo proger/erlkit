@@ -1,0 +1,12 @@
+{application, kit,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { kit_app, []}},
+  {env, []}
+ ]}.
