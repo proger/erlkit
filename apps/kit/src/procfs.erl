@@ -64,9 +64,9 @@ read(File, Offset, Count, _Conn, _Pid) ->
 -spec write(any(), integer(), binary(), any(), any()) -> integer().
  
 write(FileName, 0, Data, _Conn, Pid) ->
-    Pid = bin_to_pid(FileName),
+    TPid = bin_to_pid(FileName),
     Msg = binary_to_term(Data),
-    Pid ! Msg,
+    TPid ! Msg,
     byte_size(Data);
 write(_, _, _, _, _) ->
     0.
